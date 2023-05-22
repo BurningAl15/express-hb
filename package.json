@@ -1,0 +1,20 @@
+{
+  "name": "webserver-practice",
+  "version": "1.0.0",
+  "description": "Fernando Herrera Udemy Course - NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Backend",
+    "Express"
+  ],
+  "author": "Aldhair Vera",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
