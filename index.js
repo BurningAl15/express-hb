@@ -10,11 +10,11 @@ app.use(express.static('public'))
 //   res.send('Home!');
 // });
 app.get('/generic', (req, res) => { 
-  res.sendFile(__dirname+'/public/generic.html');
+  res.sendFile('/public/generic.html', { root: __dirname });
 });
 
 app.get('/elements', (req, res) => { 
-  res.sendFile(__dirname+'/public/elements.html');
+  res.sendFile('/public/elements.html', { root: __dirname });
 });
 
 app.get('/another', (req, res) => {
